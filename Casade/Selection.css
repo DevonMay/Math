@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    /* The image used */
+    background-color: grey;
+  
+    /* Full height */
+    height: 100%; 
+    
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+          th {text-align: center;}
+          td {text-align: center; padding: 15px;}
+          table {border-spacing: 15px;}
+         
+      
+         .button {
+          padding: 15px 25px;
+          font-size: 24px;
+          text-align: center;
+          cursor: pointer;
+          outline: none;
+          color:black;
+          background-color:grey;
+          border-color: black;
+          border-radius: 15px;
+          box-shadow: 0 9px #999;
+          }
+  
+          .button:hover {background-color:grey}
+  
+          .button:active {
+          background-color: #3e8e41;
+          box-shadow: 0 5px #666;
+          transform: translateY(4px);
+          }
